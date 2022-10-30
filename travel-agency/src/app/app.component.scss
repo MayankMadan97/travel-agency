@@ -1,0 +1,14 @@
+@font-face {
+    font-family: Delicious;
+    src: url('../../../Assets/typeface/aabaesneiue/AABebasNeue.ttf');
+}
+
+@font-face {
+    font-family: Aeroport;
+    src: url('../../../Assets/typeface/aeroport/Aeroport.otf');
+}
+
+body {
+    font-family: 'Aeroport', Fallback, sans-serif;
+
+}
