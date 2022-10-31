@@ -1,9 +1,37 @@
-.header-bar {
+.header-container {
+    z-index: 1;
 
-    height: 6vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0));
 
-    .header-item {
-        padding-left: 1em;
-        padding-right: 1em;
+    .header-bar {
+
+        height: 11vh;
+        font-size: 1.1em;
+        color: white;
+        padding-left: 4em;
+
+        .header-item {
+
+
+            margin-left: 1.75em;
+            margin-right: 1.75em;
+            padding-bottom: 0.4em;
+
+            &.logo-container {
+                font-size: 2.2em;
+                margin-right: 1em !important;
+            }
+
+            &:hover:not(.logo-container) {
+                border-bottom: 0.1em solid white !important;
+            }
+
+            cursor: pointer;
+        }
+
+        .header-item-button{
+            background-color: #d20442;
+            color: white;
+        }
     }
 }
